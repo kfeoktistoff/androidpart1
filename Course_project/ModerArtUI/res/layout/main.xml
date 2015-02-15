@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:background="#000000">
+    <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="433dp" android:background="#000000" android:baselineAligned="false"
+          android:layout_weight="1.00">
+        <LinearLayout
+                      android:orientation="vertical"
+                      android:layout_width="0dp"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="0.26">
+            <View
+                    android:id="@+id/left_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#aa0000"
+                    android:textSize="24sp" android:gravity="fill_vertical" android:layout_weight="0.5"
+                    android:layout_margin="5dp"/>
+            <View
+                    android:id="@+id/left_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffaaff"
+                    android:gravity="center_horizontal"
+                    android:textSize="24sp" android:layout_weight="0.5" android:layout_margin="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+                      android:orientation="vertical"
+                      android:layout_width="0dp"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="0.5">
+            <View
+                    android:id="@+id/right_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#aa00aa"
+                    android:gravity="center_horizontal"
+                    android:textSize="24sp" android:layout_weight="0.33" android:layout_margin="5dp"/>
+            <View
+                    android:id="@+id/right_middle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_horizontal"
+                    android:textSize="24sp" android:layout_weight="0.33" android:layout_margin="5dp"/>
+            <View
+                    android:id="@+id/right_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00aabb"
+                    android:gravity="center_horizontal"
+                    android:textSize="24sp" android:layout_weight="0.33" android:layout_margin="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <SeekBar
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+    </SeekBar>
+</LinearLayout>
